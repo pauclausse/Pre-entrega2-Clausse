@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 24px;
+    z-index: 100;
+    max-width: calc(100% - 32px);
+    width: 1180px;
+    position: absolute;
+    background-color: #000;
+    padding: 16px 32px;
+    padding-left: 16px;
+    top: 24px;
+    border-radius: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar a {
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 16px;
+    font-family: Barlow condensed,sans-serif;
+}
+
+.navbar__logo__img {
+    width: 200px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.navigation--horizontal {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.navigation{
+    list-style: none;
+}
+
+ol, ul {
+    padding-left: 0;
+}
+
+.navigation--horizontal .menu-item {
+    position: relative;
+    margin: 0;
+}
+
+.hero {
+    background:#000;
+    background-image: url("../img/bg-main.png");
+    overflow: hidden;
+    position: relative;
+}
+.hero--full-image {
+    padding-top: 160px;
+    padding-bottom: 120px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 44vw;
+    max-height: 840px;
+    display: flex;
+    align-items: center;
+    height: 680px;
+}
+
+.bg--image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+.hero__slash {
+    background: url(../img/triangulo-bg.png) no-repeat center top;
+    background-size: 1920px 144px;
+    bottom: 0;
+    height: 144px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
