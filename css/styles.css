@@ -8,6 +8,7 @@ body{
     font-family: barlow condensed;
 }
 
+/* Home - index */
 .navbar {
     display: flex;
     align-items: center;
@@ -15,7 +16,7 @@ body{
     padding: 32px 24px;
     z-index: 100;
     max-width: calc(100% - 32px);
-    width: 1180px;
+    width: 1320px;
     position: absolute;
     background-color: #000;
     padding: 16px 32px;
@@ -173,6 +174,7 @@ ol, ul {
     vertical-align: inherit;
 }
 
+
 .section__violeta{
     background: #8C27D6;
     /* overflow: hidden; */
@@ -199,6 +201,7 @@ ol, ul {
     line-height: 20px;
 }
 
+/* Footer */
 .page__footer{
     background: #8C27D6;
     /* display: flex; */
@@ -220,4 +223,119 @@ ol, ul {
 .img__rrss{
     width: 50px;
     padding-left: 10px;
+}
+
+/* Header secciones */
+.navbar__violeta{
+    background-color: #8C27D6;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar___violeta--items{
+    bottom: 5px;
+}
+
+/* Contacto */
+.section__contact{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.contact__title{
+    color: #8C27D6;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 90px;
+    letter-spacing: 2px;
+}
+
+.contacto__info{
+    display: flex;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.contacto__info a{
+    color: #8C27D6;
+    text-decoration: none;
+}
+
+.contacto__info a:hover{
+    color: #FFA500;
+}
+
+.info__contacto{
+    display: grid;
+    color: #fff;
+    padding-right: 30px;
+}
+
+input[type=text], input[type=email]{
+    width: 100%;
+    background: none;
+    border: 1px solid #8C27D6;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: -30px;
+    resize: vertical;
+    color: #fff;
+}
+
+input[type=text]:focus, input[type=email]:focus{
+    background: #8C27D6;
+}
+
+textarea{
+    width: 100%;
+    background: none;
+    border: 1px solid #8C27D6;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+    color: #fff;
+}
+
+textarea:focus{
+    background: #8C27D6;
+}
+
+input[type=submit]{
+    background: #8C27D6;
+    color: #fff;
+    padding: 7px 40px;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float: right;
+}
+
+input[type=submit]:hover{
+    background: #fff;
+    color: #8C27D6;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #8C27D6;
+}
+
+
+/* Contacto - mapa */
+.map{
+    padding: 40px auto;
+    display: block;
+}
+
+.map__title{
+    display: flex;
+    justify-content: center;
+    color: #8C27D6;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 2px;
 }
