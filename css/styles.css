@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body{
+    background: #000;
+    font-family: barlow condensed;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -89,12 +94,72 @@ ol, ul {
     background-attachment: fixed;
 }
 
-.hero__slash {
+.hero__triangulo {
     background: url(../img/triangulo-bg.png) no-repeat center top;
     background-size: 1920px 144px;
     bottom: 0;
     height: 144px;
     left: 0;
-    position: absolute;
+   
     width: 100%;
+}
+
+div{
+    display: block;
+}
+
+.section__header{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.section__subtitle{
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: 3px;
+    line-height: 0px;
+}
+
+.section__title{
+    font-weight: 900;
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+
+.section__teams{
+    background: #000;
+}
+
+.teams{
+    margin: 0 auto;
+    padding: 0 50px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.teams__container{
+    text-align: center;
+    background: #000;
+}
+
+.teams__container__info{
+    float: left;
+    width: 22%;
+    margin-left: 0;
+    margin-right: 3%;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.teams__escudo{
+    margin: 0 auto;
+    max-width: 269px;
+}
+
+.teams_name_title{
+    vertical-align: inherit;
 }
