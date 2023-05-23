@@ -8,12 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,400;0,600;0,700;0,900;1,100;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="navbar">
-        <div class="navbar__izq">
+        <div class="navbar__der">
             <a href="navbar__logo">
                 <img class="navbar__logo__img" src="img/logo-casa-gamer.png" alt="logo-casa-gamer">
             </a>
@@ -23,16 +23,16 @@
                 <div class="menu-principal-container">
                     <ul class="navigation navigation--horizontal">
                         <li class="menu-item">
-                            <a href="la-casa.html">La Casa</a>
+                            <a href="pages/la-casa.html">La Casa</a>
                         </li>
                         <li class="menu-item">
-                            <a href="players.html">Players</a>
+                            <a href="pages/players.html">Players</a>
                         </li>
                         <li class="menu-item">
-                            <a href="novedades.html">Novedades</a>
+                            <a href="pages/novedades.html">Novedades</a>
                         </li>
                         <li class="menu-item">
-                            <a href="contacto.html">Contacto</a>
+                            <a href="pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -40,10 +40,14 @@
         </div>
     </header>
     <div class="wrap-main">
-        <main class="">
+        <main class="main">
             <section class="hero hero--full-image bg--image">
             </section>
-            <div class="hero__triangulo"></div>
+            <div class="hero__bg">
+                <div>
+                    <div class="hero__triangulo"></div>
+                </div>
+            </div>
             <section class="section__teams">
                 <div class="section__header">
                     <h3 class="section__subtitle">La casa</h2>
@@ -97,12 +101,56 @@
                     <a href=""></a>
                 </div>
             </section>
+            <section class="section__violeta">
+                <div class="section__violeta__texto container">
+                    <div class="col-md-5">
+                        <h4 class=" section__subtitle--violeta">TODOS POR UNA MISMA MISIÓN</h4>
+                    <h2 class="section__title section__title--violeta">FORMAMOS A LOS MEJORES ESPORTS TEAMS</h2>
+                    <p class="section__parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error veritatis aspernatur suscipit debitis inventore minima. Asperiores magnam dolores mollitia sit ut dignissimos? Libero enim sunt tempora beatae saepe nostrum repellat!</p>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="section_news">
+                <div class="section__header">
+                    <h2 class="section__title">novedades</h2>
+                </div>
+            </section>
         </main>
 
     </div>
-
+<footer class="page__footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-9">
+                <a href="index.html">
+                    <img class="footer__logo" src="img/logo-casa-gamer.png" alt="">
+                </a>
+                <div>
+                    <p class="rights">LA CASA GAMER © 2023 TODOS LOS DERECHOS RESERVADOS</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="rrss">
+                    <a href="">
+                        <img src="img/fb@2x.png" class="img__rrss" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/ig@2x.png" class="img__rrss" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/tiktok@2x.png" class="img__rrss" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/twitch@2x.png" class="img__rrss" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

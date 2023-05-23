@@ -28,10 +28,14 @@ body{
 
 .navbar a {
     color: #fff;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.2;
-    font-size: 16px;
+    font-size: 20px;
+    letter-spacing: 2px;
     font-family: Barlow condensed,sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 15px;
 }
 
 .navbar__logo__img {
@@ -59,6 +63,7 @@ a:visited {
     list-style: none;
 }
 
+
 ol, ul {
     padding-left: 0;
 }
@@ -75,16 +80,15 @@ ol, ul {
     position: relative;
 }
 .hero--full-image {
-    padding-top: 160px;
-    padding-bottom: 120px;
-    color: #fff;
+    /* padding-top: 100px;
+    padding-bottom: 120px; */
     position: relative;
     overflow: hidden;
     height: 44vw;
-    max-height: 840px;
+    max-height: 1200px;
     display: flex;
     align-items: center;
-    height: 680px;
+    height: 900px;
 }
 
 .bg--image {
@@ -94,23 +98,27 @@ ol, ul {
     background-attachment: fixed;
 }
 
+.hero__bg{
+    position: relative;
+}
+
 .hero__triangulo {
-    background: url(../img/triangulo-bg.png) no-repeat center top;
+    background-image: url(../img/triangulo-bg.png);
     background-size: 1920px 144px;
     bottom: 0;
     height: 144px;
     left: 0;
-   
+    position: absolute;
     width: 100%;
 }
 
-div{
+/* div{
     display: block;
-}
+} */
 
 .section__header{
     position: relative;
-    margin: 0 auto;
+    margin: 60px auto 30px auto;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
@@ -144,6 +152,7 @@ div{
 .teams__container{
     text-align: center;
     background: #000;
+    padding-bottom: 32em;
 }
 
 .teams__container__info{
@@ -162,4 +171,53 @@ div{
 
 .teams_name_title{
     vertical-align: inherit;
+}
+
+.section__violeta{
+    background: #8C27D6;
+    /* overflow: hidden; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section__subtitle--violeta{
+    color: #FFA500;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.section__title--violeta{
+    color: #fff;
+    line-height: 80px;
+}
+
+.section__parrafo{
+    color: #fff;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.page__footer{
+    background: #8C27D6;
+    /* display: flex; */
+    height: 160px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.footer__logo{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.rrss{
+    padding-top: 10px;
+}
+
+.img__rrss{
+    width: 50px;
+    padding-left: 10px;
 }
