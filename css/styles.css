@@ -80,6 +80,11 @@ ol, ul {
     overflow: hidden;
     position: relative;
 }
+
+.hero--lacasa{
+    background-image: url(../img/bg_la-casa.jpg);
+}
+
 .hero--full-image {
     /* padding-top: 100px;
     padding-bottom: 120px; */
@@ -338,4 +343,31 @@ input::placeholder, textarea::placeholder{
     text-transform: uppercase;
     font-size: 45px;
     letter-spacing: 2px;
+}
+
+/* la casa */
+.section__header--lacasa{
+    max-width: 1000px;
+}
+
+.nosotros__text{
+    text-transform: none;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.section__img__container{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    column-gap: 30px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.section__img__container img{
+    /* width: auto; */
+    height: 450px;
 }
